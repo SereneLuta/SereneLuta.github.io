@@ -1,0 +1,305 @@
+#main-circle {
+  position: relative;
+  height: 800px;
+  width: 800px;
+  /* background-color:
+  radial-gradient: (#161e20, white); */
+  background:
+  radial-gradient(#161616, #161e20);
+  border-radius: 50%;
+  margin: 2% 25% 2% 25%;
+}
+
+#top-left {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 350px 0px 0px 0px;
+  -moz-border-radius: 350px 0px 0px 0px;
+  -webkit-border-radius: 350px 0px 0px 0px;
+  top: 50%;
+  left: 50%;
+  margin: -350px 0px 0px -350px;
+  border-style: solid;
+  border-color: #161e20;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background: #2f82c0;
+  background:
+  linear-gradient(45deg, transparent 75%, rgba(13, 17, 51, 0.8) 75%) 0 0,
+  linear-gradient(90deg, transparent 75%, rgba(13,17,51,.8) 75%) 0 0,
+  linear-gradient(45deg, transparent 75%, rgba(13,17,51,.8) 75%) 1px -15px,
+  linear-gradient(90deg, transparent 75%, rgba(13,17,51,.8) 75%) 1px -15px,
+  #2f82c0;
+  background-size: 15px 30px;   
+  }
+
+#top-right {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 0px 350px 0px 0px;
+  -moz-border-radius: 0px 350px 0px 0px;
+  -webkit-border-radius: 0px 350px 0px 0px;
+  background: #51a04e;
+  top: 50%;
+  left: 50%;
+  margin: -350px 0px 0px 0px;
+  border-style: solid;
+  border-color: #161e20;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background:#51a04e;
+  background:
+  linear-gradient(-45deg, transparent 75%, rgba(17, 51, 13, 0.8) 75%) 0 0,
+  linear-gradient(-90deg, transparent 75%, rgba(17,51,13,.8) 75%) 0 0,
+  linear-gradient(-45deg, transparent 75%, rgba(17,51,13,.8) 75%) 1px -15px,
+  linear-gradient(-90deg, transparent 75%, rgba(17,51,13,.8) 75%) 1px -15px,
+  #51a04e;
+  background-size: 15px 30px;   
+}
+
+#bottom-right {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 0px 0px 350px 0px;
+  -moz-border-radius: 0px 0px 350px 0px;
+  -webkit-border-radius: 0px 0px 350px 0px;
+  top: 50%;
+  left: 50%;
+  margin: 0px 0px 0px 0px;
+  border-style: solid;
+  border-color: #161e20;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background:#e54a5e;
+  background:
+  linear-gradient(-45deg, transparent 75%, rgba(161,36,14, 0.8) 75%) 0 0,
+  linear-gradient(-90deg, transparent 75%, rgba(161,36,14,.8) 75%) 0 0,
+  linear-gradient(-45deg, transparent 75%, rgba(161,36,14,.8) 75%) 1px -15px,
+  linear-gradient(-90deg, transparent 75%, rgba(161,36,14,.8) 75%) 1px -15px,
+  #e54a5e;
+  background-size: 15px 30px;   
+
+}
+
+#bottom-left {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 0px 0px 0px 350px;
+  -moz-border-radius: 0px 0px 0px 350px;
+  -webkit-border-radius: 0px 0px 0px 350px;
+  top: 50%;
+  left: 50%;
+  margin: 0px 0px 0px -350px;
+  border-style: solid;
+  border-color: #161e20;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background:#e1bf2c;
+  background:
+  linear-gradient(45deg, transparent 75%, rgba(197, 149, 16, 0.8) 75%) 0 0,
+  linear-gradient(90deg, transparent 75%, rgba(197,149,16,.8) 75%) 0 0,
+  linear-gradient(45deg, transparent 75%, rgba(197,149,16,.8) 75%) 1px -15px,
+  linear-gradient(90deg, transparent 75%, rgba(197,149,16,.8) 75%) 1px -15px,
+  #e1bf2c;
+  background-size: 15px 30px;   
+
+}
+
+#inner-circle {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin: -150px 15px 0px -155px;
+  border-style: solid;
+  border-color: #161e20;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background:
+  radial-gradient(#ffffff, #777777);
+}
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -75px;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 190px;
+}
+
+p {
+  text-align: center;
+  font-size:16px;
+}
+
+#count-text {
+  position: absolute;
+  margin-top: 0px;
+  margin-bottom:0px;
+  margin-left: 250px;
+}
+#start-button {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 50px;
+}
+
+
+
+/* The switch - the box around the slider */
+.on-switch {
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  top: 50%;
+  left: 50%;
+  margin-top: 0px;
+  margin-left: -30px;
+}
+
+/* Hiding the default HTML checkbox */
+.on-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2f82c0;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2f82c0;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#turn-counter {
+  position: absolute;
+  background: #330000;
+  color: red;
+  font-family: monospace;
+  font-size: 20px;
+  height: 30px;
+  width: 75px;
+  margin-top:20px;
+  margin-bottom:0px;
+  margin-left: 108px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+/* #hard-button {
+  position: absolute;
+  margin-top: -75px;
+  margin-left: 198px;
+} */
+
+#difficulty-setting p{
+  font-size: 12px;
+  top: 30%;
+  left: 65%;
+  margin-top: -50px;
+  margin-left: 175px;
+}
+
+.difficulty-switch{
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  top: 50%;
+  left: 80%;
+  margin-top: 0px;
+  margin-left: -30px;
+}
+
+.difficulty-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+input:checked + #difficulty  {
+  background-color:rgba(161,36,14, 0.8);
+}
+
+input:focus + #difficulty {
+  box-shadow: 0 0 1px rgba(161,36,14, 0.8);
+}
+
+input:checked + .difficulty-switch + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}

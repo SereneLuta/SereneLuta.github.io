@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Serene's Simon Game</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="simon-style.css">
+    <!--Simon Sounds-->
+    <audio id="blue_sound">
+        <source src="http://simpliserene.com/wp-content/uploads/2019/03/blue_simon_sound.mp3"></source>
+    </audio>
+    <audio id="green_sound">
+        <source src="http://simpliserene.com/wp-content/uploads/2019/03/green_simon_sound.mp3"></source>
+    </audio>
+    <audio id="red_sound">
+        <source src="http://simpliserene.com/wp-content/uploads/2019/03/red_simon_sound.mp3"></source>
+    </audio>
+    <audio id="yellow_sound">
+        <source src="http://simpliserene.com/wp-content/uploads/2019/03/yellow_simon_sound.mp3"></source>
+    </audio>
+
+</head>
+<body>
+    <div id="main-circle">
+        <div id="top-right"></div>
+        <div id="bottom-right"></div>
+        <div id="bottom-left"></div>
+        <div id="top-left"></div>
+        <div id="inner-circle">
+            <div id="title"><h1>SIMON</h1></div>
+            <label class="on-switch">
+                <input id = "power-on" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <div id="start"><h3>POWER</h3></div>
+            <div class="buttons">
+                <button id="start-button" class="button">START</button>
+                <label class="difficulty-switch">
+                    <input id = "difficulty" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <div id="difficulty-setting"><span id="easy-word"><p>EASY</span>/<span id="hard-word">HARD</p></span></div>
+            </div>
+            <div id="turn-counter"></div>
+            <div class="count-text"><p>COUNT</p></div>
+        </div>
+    </div>
+
+    <script src="simon.js"></script>
+</body>
+</html>
